@@ -1,5 +1,5 @@
 const util = require('util');
-const fs = require('fs');
+const fs = require('memfs');
 
 module.exports = {
   readCache: util.promisify(fs.readFile),

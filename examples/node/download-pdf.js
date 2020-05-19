@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const path = require('path');
-const fs = require('fs');
+const fs = require('memfs');
 const { createWorker } = require('../../');
 
 const [,, imagePath] = process.argv;

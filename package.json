@@ -68,7 +68,8 @@
     "regenerator-runtime": "^0.13.3",
     "resolve-url": "^0.2.1",
     "tesseract.js-core": "^2.2.0",
-    "zlibjs": "^0.3.1"
+    "zlibjs": "^0.3.1",
+    "memfs": "^3.2.0"
   },
   "repository": {
     "type": "git",
